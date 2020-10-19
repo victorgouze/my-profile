@@ -1,0 +1,116 @@
+body {
+	background-color: #f9f9f9;
+	color: rgb(50,50,50);
+	font-size: 18px; 
+	font-family: 'Raleway', sans-serif;
+	
+}
+/*style d'écriture*/
+
+h1, h2 {
+	font-family: Cellini Medium , monospace; 
+}
+h1	{
+	color: rgb(0,0,0);
+	
+	font-size: 30PX;
+	font-weight: 200;
+	text-transform: uppercase;
+
+}
+
+/*images*/
+img{
+	width: 200px;
+	height : 200px;
+	border-radius: 50%
+}
+
+#deco {
+	width: 200px;
+	height:300px ;
+}
+#foot {
+	width: 280px;
+	height: 200px;
+}
+#music {
+	width: 280px;
+	height: 200px;
+}
+
+.picture-arround {
+	border-radius: 3%
+}
+
+/*liens*/
+
+a{
+	text-decoration: none;
+	color: #abc1e1;
+	font-size: 14px;
+}
+
+#btn {
+	background-color: #abc1e1;
+	color:white;
+	padding: 10px 15px;
+	border-radius: 5%;
+
+}
+#btn :hover {
+	color: purple;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+} 
+.list-inline i {
+	font-size: 40px;
+}
+.list-inline i:hover {
+	color: purple;
+}
+
+
+
+/*design de division*/
+ body {
+	width: 700px;
+	margin: 40px auto;
+}
+@media(max-width: 540px) {
+	body {
+		width: 300px;
+	}
+}
+@media (max-width: 720px) {
+	body {
+		width: 500px;
+	}
+}
+
+.intro {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.card-white	{
+	background-color: white
+	border:1px solid black;
+	text-align: center;
+	border-radius: 3px ; 
+	box-shadow: 1px 15px 35px rgba(50,50,93,.1) ; 
+	padding: 40px;
+	margin: 30px 0px;
+
+}
+
+
+
+
+
+
